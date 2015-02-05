@@ -1,0 +1,29 @@
+{
+  "title": "List of occupations",
+  "name": "occupations",
+  "resources": [
+    {
+      "name": "occupations.csv",
+      "description": "A list of occupations or job roles taken from the gazeteer used by the official Gazette",
+      "license": "OGL-UK-3.0",
+      "keywords": [ "Occupations", "Roles", "Jobs", "Job types" ],
+      "version": "1.0",
+      "sources": [{
+        "name": "The Gazette",
+        "web": "https://github.com/TheGazette/Transformations/blob/master/EnrichmentService/gazetteer/des_occupation.lst"
+       }],
+      "path": "occupations.csv",
+      "mediatype": "text/csv",
+      "bytes": 16231,
+      "schema": {
+        "fields": [
+          {
+            "name": "Occupation",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
+
